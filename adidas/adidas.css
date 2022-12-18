@@ -1,0 +1,205 @@
+.navbar1{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+.regalos{
+    width: 250px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar2{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    background: url(./adidas_logo_icon_168690.png)no-repeat;
+    display: flex;
+    background-size: contain;
+    margin-top: 5px;
+}
+.main{
+    width: 85%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    justify-content: end;
+    
+    
+    
+
+}
+.caja1{
+    height: 100%;
+    display: flex;
+    margin: 8px;
+    font-size: medium;
+
+}
+.menu2{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+
+    
+    
+}
+.menu2a{
+    height: 100%;
+    width: 900px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+    align-items: center;
+}
+.caja2{
+    height: 100%;
+    width: 80;
+    display: flex;
+    font-size: large;
+    align-items: center;
+    margin: 6px;
+    
+
+
+}
+.caja3{
+        height: 100%;
+        width: 80;
+        display: flex;
+        font-size: large;
+        align-items: center;
+        margin: 6px;
+        font-weight: bold;
+        
+}
+#Buscador{
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+    background-size: 24px;
+    margin-right: 20px;
+    margin-left: 190px;
+    width: 400px;
+    border: transparent;
+    border-bottom: solid 1px #ccc;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+    display: flex;
+    align-items: flex-start;
+  }
+  .icono1{
+    height: 50px;
+    width: 30px;
+    background: url(./my-account-login.png)no-repeat;
+    background-size: contain;
+    display: flex;
+    margin-top: 15px;
+    
+  }
+  .icono2{
+    height: 100%;
+    width: 30px;
+    background: url(./heart.svg)no-repeat;
+    background-size:contain;
+    display: flex;
+    margin-top: 15px;
+    
+  } 
+   .icono3{
+    height: 100%;
+    width: 30px;
+    background: url(./kisspng-computer-icons-grocery-store-shopping-cart-icon-shopping-basket-transparent-5ab090fb821752.2223270415215208915329.jpg)no-repeat;
+    background-size: contain;
+    display: flex;
+    margin-top: 15px;
+    margin-right: 50px
+  }
+  .imagen1{
+    height: 700px;
+    background:url(./fondoad.png)no-repeat;
+    background-size: contain;
+}
+.imposible{
+    width: 400px;
+    height: 500px;
+    margin: 10px 0px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.item1{
+    height: 33%;
+    background: transparent;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+.item1a{
+    height: auto;
+    background: transparent;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.item2{
+    height: 50px;
+    width: 200px;
+    border: solid;
+    margin-top: 10px;
+    background-color: rgb(95, 4, 75);
+    color: white;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    
+}
+.item2a{
+    width: 50%;
+    height: 50%;
+    background: url(./right.png)no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+}
+.item2:hover{
+        background-color: #f83504;
+        box-shadow: 0px 15px 20px rgba(240, 77, 12, 0.4);
+        color: #fff;
+        transform: translateY(-7px);
+      }
